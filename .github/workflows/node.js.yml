@@ -29,9 +29,9 @@ jobs:
     - run: npm ci
 
   testing:
-
+    name: Testing de pruebas unitarias
+    needs: build
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [18.x]
