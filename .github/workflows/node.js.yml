@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
 
-   testing:
+  testing:
 
     runs-on: ubuntu-latest
 
